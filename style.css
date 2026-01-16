@@ -22,7 +22,7 @@ li a{
 background-image:url(./images/Circle\ design.svg) ;
 background-repeat: no-repeat;
 width: 475px;
-height: 475px;
+/* height: 475px; */
 
 }
 .hero{
@@ -38,10 +38,10 @@ height: 475px;
 }
 .hero-description{
     width: 582px;
-    height: 270px;
+    height: 270px;/
     
 }
-.hero-description p{
+.text-p{
     font-weight: 800;
     font-size: 1rem;
     margin-top: 16px;
@@ -54,7 +54,7 @@ height: 475px;
     border: none;
     border-radius: 20px;
     width: 196px;
-    height: 44px;
+    /* height: 44px; */
     align-items: center;
     justify-content: center;
 }
@@ -69,7 +69,7 @@ height: 475px;
 }
 .sponsers{
     width: 1110px;
-    height: 110px;
+    /* height: 110px; */
    margin: 0 auto;
 }
 /* sponsor section ends here  */
@@ -79,7 +79,7 @@ height: 475px;
 
 .card{
     width: 329px;
-    height: 490px;
+    /* height: 490px; */
      box-shadow:0 5px 15px 0 ;
      border-radius: 15px;
      /* margin-left: 20px; */
@@ -109,5 +109,11 @@ margin-left: 20px;
     /* text-align: center; */
     margin: 0 auto;
     width: 1047px;
-    height: 1662px;
+    /* height: 1662px; */
 }
+/* popular section ends here  */
+
+
+/* feture products starts here  */
+
+
