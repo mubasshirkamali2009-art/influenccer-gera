@@ -116,4 +116,35 @@ margin-left: 20px;
 
 /* feture products starts here  */
 
+@media screen and (max-width:576px)
+ {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+  margin: 0 auto;
+     
+    }
+    .hero-image{
+        order: 1;
 
+    }
+    .hero-description{
+        order: 2;
+        text-align: center;
+    }
+    .nav-header{
+        flex-direction: column;
+
+    }
+    .sponsers .sponser-container{
+        flex-direction: column;
+      
+    }
+    .sponser-company{
+         margin-left: 30px;
+    }
+    .card-container{
+        grid-template-columns: 1,1fr;
+    }
+}
